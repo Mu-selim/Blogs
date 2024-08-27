@@ -1,0 +1,35 @@
+{
+  "name": "global-reach-local-touch-mastering-i18n-for-backend-developers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:bundle": "node esbuild.dev.mjs",
+    "dev:restart-server": "nodemon --config nodemon.json",
+    "dev": "npm-run-all --parallel dev:*",
+    "build": "node esbuild.build.mjs",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "i18next": "^23.14.0",
+    "i18next-fs-backend": "^2.3.2",
+    "i18next-http-middleware": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.16.1",
+    "esbuild": "^0.23.0",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3"
+  }
+}

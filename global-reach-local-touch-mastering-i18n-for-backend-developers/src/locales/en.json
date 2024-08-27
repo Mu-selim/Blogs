@@ -1,0 +1,7 @@
+{
+  "welcome": "Welcome",
+  "blog": {
+    "title": "Global Reach, Local Touch: Mastering i18n for Backend Developers",
+    "description": "Unlock the power of internationalization in your backend. Learn key concepts and best practices for implementing i18n, enabling your application to reach a global audience while providing a localized experience."
+  }
+}
